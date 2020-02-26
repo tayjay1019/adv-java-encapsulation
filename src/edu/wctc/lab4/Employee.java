@@ -232,4 +232,11 @@ public class Employee {
     public void printReport() {
         reportService.outputReport();
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" + "firstName=" +firstName + ", lastName=" + lastName + ", ssn=" + ssn + "}";
+    }
+
+
 }
